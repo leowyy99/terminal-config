@@ -13,7 +13,7 @@ chmod u+x setup.sh
 
 # Set up synth-shell
 cd ~
-git clone git@github.com:leowyy99/synth-shell.git
+git clone --recursive git@github.com:leowyy99/synth-shell.git
 chmod +x synth-shell/setup.sh
 cd synth-shell
 ./setup.sh
